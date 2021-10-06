@@ -1,0 +1,42 @@
+.footer {
+    border-top: 4px solid #6187cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    left: 0;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.socials i {
+    color: #6187cc;
+    font-size: 30px;
+}
+
+.socials i:hover {
+    color: #3e598b;
+}
+
+.social {
+    margin-right: 8px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social {
+        margin-right: 9px;
+    }
+}
