@@ -112,7 +112,7 @@ export default function Main() {
                   </ul>
                   <div className="button-group">
                     <a
-                      href="https://joshuaalvarez06.github.io/Thinkful---Thinkfulbnb/"
+                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-secondary"
