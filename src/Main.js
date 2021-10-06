@@ -16,7 +16,7 @@ export default function Main() {
   if (state.succeeded) {
       history.push("/form-submitted")
   }
-  
+
   return (
     <div className="container">
       <div id="main" className="main-section">
@@ -248,6 +248,7 @@ export default function Main() {
             <textarea
               id="body"
               name="body"
+              rows="7"
               placeholder="Enter Text Here"
               required
             />

@@ -8,11 +8,11 @@ export default function Navbar() {
         <div className="header">
             <h1 id="top" className="logo"><a href="/"><i className="fas fa-laptop-code fa-xs"></i></a></h1>
             <ul className="menu-items">
-                <li className="menu-item"><a href="/">Home</a></li>
+                <li className="menu-item"><a href="#main">Home</a></li>
                 <li className="menu-item"><a href="#skills">Skills</a></li>
                 <li className="menu-item"><a href="#projects">Projects</a></li>
-                <li className="menu-item-button"><a href="#contact">Get In Touch</a></li>
-                <li className="menu-item-button" style={{marginRight: "10px"}}><a href="https://drive.google.com/file/d/1e3_lTBFrJ3dKa8LEWCrcKcpVtAXKfrfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+                <li className="menu-item-button" style={{marginRight: "15px"}} ><a href="#contact">Get In Touch</a></li>
+                <li className="menu-item-button" ><a href="https://drive.google.com/file/d/1e3_lTBFrJ3dKa8LEWCrcKcpVtAXKfrfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
             </ul>
             <div className="hamburger" onClick={() => setNavModalVisible(true)}>
                 <div className="bar"></div>
