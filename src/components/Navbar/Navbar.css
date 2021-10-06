@@ -47,6 +47,11 @@
     padding: 5px;
     background: #6187cc;
     border-radius: 5px;
+    margin-right: 10px;
+}
+
+.menu-item-button:last-child {
+    margin-right: 0;
 }
 
 .menu-item-button:hover {
