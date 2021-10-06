@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./Main";
 import NoMatch from "./NoMatch";
 import Footer from "./components/Footer/Footer";
+import FormSubmitted from "./components/FormSubmitted";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Main />
+        </Route>
+        <Route path="/form-submitted">
+          <FormSubmitted />
         </Route>
         <Route>
           <NoMatch />

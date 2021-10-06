@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -8,8 +13,10 @@
 
 .main-section {
   margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 0 20px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-title {
@@ -28,24 +35,32 @@
   color: #000;
 }
 
+#hero {
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 3px;
+  filter: hue-rotate(-60deg);
+}
+
+/* Sections */
 .section {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 100px;
+  padding: 50px 50px;
 }
 
 .section-title {
   font-family: "Titillium Web", sans-serif;
+  text-align: center;
   font-size: 24px;
   color: #000;
+  margin-bottom: 30px;
 }
 
 .section-text {
-  text-align: center;
   font-size: 14px;
-  margin-top: 10px;
   font-family: "Open Sans", sans-serif;
   color: #000;
 }
@@ -59,6 +74,7 @@
 
 .skills {
   margin-right: 50px;
+  width: 50%;
 }
 
 .skills h2,
@@ -104,9 +120,46 @@
   margin-bottom: 0;
 }
 
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Contact */
+form {
+  width: 100%;
+}
+
+.form-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-section:last-child {
+  margin-bottom: 0;
+}
+
 /* Backgrounds */
 .primary-bg {
   background-color: #6187cc;
+}
+
+/* Bootstrap Customization */
+.btn-primary {
+  background-color: #6187cc;
+  border: none;
+}
+
+.btn-primary:hover {
+  border: none;
+  background-color: #3e598b;
+}
+
+.card-title {
+  font-family: "Titillium Web", sans-serif;
 }
 
 /* Typing Effect On Title */
@@ -137,24 +190,26 @@
   }
 
   .main-section {
-    padding: 50px 20px;
+    padding: 50px 20px 0 20px;
   }
 
   .main-title {
     font-size: 72px;
     /* Typewriter Effect */
     overflow: hidden;
-    border-right: .15em solid #6187cc; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    animation: 
-        typing 3.5s steps(200, end),
-        blink-caret .75s step-end infinite;
+    border-right: 0.15em solid #6187cc;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 1.5s steps(200, end), blink-caret 1s step-end infinite;
   }
 
   .main-subtitle {
     font-size: 20px;
+  }
+
+  #hero {
+    width: 650px;
   }
 
   .section {
