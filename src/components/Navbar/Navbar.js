@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -6,9 +7,9 @@ export default function Navbar() {
 
     return (
         <div className="header">
-            <h1 id="top" className="logo"><a href="/"><i className="fas fa-laptop-code fa-xs"></i></a></h1>
+            <h1 id="#" className="logo"><a href="/"><i className="fas fa-laptop-code fa-xs"></i></a></h1>
             <ul className="menu-items">
-                <li className="menu-item"><a href="#main">Home</a></li>
+                <li className="menu-item"><Link to="#">Home</Link></li>
                 <li className="menu-item"><a href="#skills">Skills</a></li>
                 <li className="menu-item"><a href="#projects">Projects</a></li>
                 <li className="menu-item-button" style={{marginRight: "15px"}} ><a href="#contact">Get In Touch</a></li>
@@ -25,7 +26,7 @@ export default function Navbar() {
                     <i className="fas fa-times x"/>
                 </div>
                 <ul className="menu-items-mobile">
-                    <li className="menu-item"><a href="/">Home</a></li>
+                    <li className="menu-item"><Link to="#">Home</Link></li>
                     <li className="menu-item"><a href="#skills">Skills</a></li>
                     <li className="menu-item"><a href="#projects">Projects</a></li>
                     <li className="menu-item-button" style={{marginBottom: "15px"}}><a href="#contact">Get In Touch</a></li>
