@@ -12,7 +12,7 @@ export default function Navbar() {
                 <li className="menu-item"><a href="#skills">Skills</a></li>
                 <li className="menu-item"><a href="#projects">Projects</a></li>
                 <li className="menu-item-button"><a href="#contact">Get In Touch</a></li>
-                <li className="menu-item-button"><a href="https://drive.google.com/file/d/1e3_lTBFrJ3dKa8LEWCrcKcpVtAXKfrfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+                <li className="menu-item-button" style={{marginRight: "10px"}}><a href="https://drive.google.com/file/d/1e3_lTBFrJ3dKa8LEWCrcKcpVtAXKfrfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
             </ul>
             <div className="hamburger" onClick={() => setNavModalVisible(true)}>
                 <div className="bar"></div>
@@ -28,7 +28,8 @@ export default function Navbar() {
                     <li className="menu-item"><a href="/">Home</a></li>
                     <li className="menu-item"><a href="#skills">Skills</a></li>
                     <li className="menu-item"><a href="#projects">Projects</a></li>
-                    <li className="menu-item-button"><a href="#contact">Get In Touch</a></li>
+                    <li className="menu-item-button" style={{marginBottom: "15px"}}><a href="#contact">Get In Touch</a></li>
+                    <li className="menu-item-button"><a href="https://drive.google.com/file/d/1e3_lTBFrJ3dKa8LEWCrcKcpVtAXKfrfm/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
                 </ul>
                 </div>
              )}
