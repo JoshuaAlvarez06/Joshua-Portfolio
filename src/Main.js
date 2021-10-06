@@ -17,7 +17,7 @@ export default function Main() {
         <p className="section-text">
           I have been around technology all my life, and I have grown to have a
           deep love for it. Since beginning to code, it has become my passion.
-          I, now, focus on front-end development using Javascript and the React
+          I, now, focus on front-end development using mainly Javascript and the React
           library. I am a quick learner who is always looking to add more to my
           set of knowledge.
           <br />
@@ -30,7 +30,7 @@ export default function Main() {
         <div className="skills">
           <h2 className="section-title lg-title">Front End Skills</h2>
           <div className="skill-section">
-            <i class="fab fa-react skill"></i>
+            <i className="fab fa-react skill"></i>
             <p className="section-text">React</p>
           </div>
           <div className="skill-section">
@@ -42,7 +42,7 @@ export default function Main() {
             <p className="section-text">CSS3</p>
           </div>
           <div className="skill-section">
-            <i class="fab fa-html5 skill"></i>
+            <i className="fab fa-html5 skill"></i>
             <p className="section-text">HTML5</p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function Main() {
             <p className="section-text">Git</p>
           </div>
           <div className="skill-section">
-            <i class="fab fa-node skill"></i>
+            <i className="fab fa-node skill"></i>
             <p className="section-text">Node.js</p>
           </div>
           <div className="skill-section">
@@ -79,45 +79,63 @@ export default function Main() {
         <div className="projects">
           <div className="project-section">
             <div className="project">
-              <div class="card" style={{width: "18rem"}}>
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Flashcard-O-Matic</h5>
+                  <ul>
+                    <li className="card-text">
+                        Developed a full-stack application in which users can create, edit, and study their own flashcards.
+                    </li>
+                    <li className="card-text">
+                        Implemented read-only props, React hooks, and single-responsibility components.
+                    </li>
+                    <li className="card-text">
+                        Built with: React, JavaScript, HTML, CSS
+                    </li>
+                  </ul>
+                  <a href="#" className="btn btn-primary">
                     Go somewhere
                   </a>
                 </div>
               </div>
             </div>
             <div className="project">
-            <div class="card" style={{width: "18rem"}}>
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Pomodoro Timer</h5>
+                  <ul>
+                    <li className="card-text">
+                        Developed a pomodoro timer which allows users to set a period of study time and break time in order to break work into intervals using React Router and React hooks.
+                    </li>
+                    <li className="card-text">
+                        Built with React, JavaScript, HTML, CSS
+                    </li>
+                  </ul>
+                  <a href="#" className="btn btn-primary">
                     Go somewhere
                   </a>
                 </div>
               </div>
             </div>
             <div className="project">
-            <div class="card" style={{width: "18rem"}}>
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">
+              <div className="card" style={{ width: "18rem" }}>
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">ThinkfulBnb</h5>
+                  <ul>
+                    <li className="card-text">
+                        Developed a web app using mobile-first development strategies.
+                    </li>
+                    <li className="card-text">
+                        Implemented media queries and styling to seamlessly allow for cross-platform use of the application.
+                    </li>
+                    <li className="card-text">
+                        Built with HTML, CSS
+                    </li>
+                  </ul>
+                  <a href="#" className="btn btn-primary">
                     Go somewhere
                   </a>
                 </div>
