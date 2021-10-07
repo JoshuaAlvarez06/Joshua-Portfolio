@@ -20,7 +20,7 @@ export default function Main() {
   return (
     <div className="container">
       <div id="main" className="main-section">
-        <h1 className="main-title">Front End Developer</h1>
+        <h1 className="main-title">Full Stack Developer</h1>
         <h2 className="main-subtitle">
           I create web applications, and I love what I do.
         </h2>
@@ -32,7 +32,7 @@ export default function Main() {
           I have been around technology all my life, and I have grown to have a
           deep love for it. Since beginning to code, it has become my passion.
           I, now, focus on front-end development using mainly Javascript and the
-          React library. I am a quick learner who is always looking to add more
+          React library. I am a very young, quick learner who is always looking to add more
           to my set of knowledge.
           <br />
           <br />
@@ -42,7 +42,7 @@ export default function Main() {
       </div>
       <div id="skills" className="skills-container section">
         <div className="skills">
-          <h2 className="section-title lg-title">Front End Skills</h2>
+          <h2 className="section-title lg-title">Skills</h2>
           <div className="skill-section">
             <i className="fab fa-react skill"></i>
             <p className="section-text">React</p>
@@ -61,7 +61,7 @@ export default function Main() {
           </div>
         </div>
         <div className="other-skills">
-          <h2 className="section-title lg-title">Other</h2>
+          <h2 className="section-title lg-title">More</h2>
           <div className="skill-section">
             <i className="fab fa-git-square skill"></i>
             <p className="section-text">Git</p>
