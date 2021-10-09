@@ -219,7 +219,7 @@ export default function Main() {
                     </li>
                     <li className="section-text">
                       Implemented styled components, React hooks, and
-                      single-responsibility components.
+                      single-responsibility components. Used various animations to enhance visuals.
                     </li>
                     <li className="section-text">
                       Built with: React, JavaScript, HTML, CSS
@@ -227,7 +227,7 @@ export default function Main() {
                   </ul>
                   <div className="button-group">
                     <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
+                      href="https://companysite-ja.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-secondary"
@@ -235,7 +235,7 @@ export default function Main() {
                       Preview
                     </a>
                     <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
+                      href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
