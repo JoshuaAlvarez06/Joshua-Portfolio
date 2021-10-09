@@ -25,6 +25,10 @@ export default function Main() {
         <h2 className="main-subtitle">
           I create web applications, and I love what I do.
         </h2>
+        <div style={{marginTop: "20px"}}>
+          <a href="https://www.linkedin.com/in/joshuaalvarez06" target="_blank" rel="noreferrer" className="btn btn-primary" style={{marginRight: "10px"}}>LinkedIn</a>
+          <a href="https://www.github.com/joshuaalvarez06" target="_blank" rel="noreferrer" className="btn btn-primary">GitHub</a>
+        </div>
         <img id="hero" src={hero} alt="hero" />
       </div>
       <div id="about" className="section primary-bg">
