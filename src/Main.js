@@ -5,6 +5,7 @@ import expressPng from "./images/express.png";
 import thinkfulbnb from "./images/thinkfulbnb.png";
 import pomodorotimer from "./images/pomodorotimer.png";
 import flashcardomatic from "./images/flashcardomatic.png";
+import companySite from "./images/companysite.png";
 import hero from "./images/hero.svg";
 import { useForm, ValidationError } from '@formspree/react';
 import { useHistory } from "react-router-dom";
@@ -197,6 +198,44 @@ export default function Main() {
                     </a>
                     <a
                       href="https://github.com/JoshuaAlvarez06/Thinkful---Thinkfulbnb.git"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Repo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="card" style={{ width: "18rem", height: "100%" }}>
+                <img src={companySite} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Company Site</h5>
+                  <ul>
+                    <li className="section-text">
+                      Developed a responsive, front-end application which can be used as a sales site or a company website.
+                    </li>
+                    <li className="section-text">
+                      Implemented styled components, React hooks, and
+                      single-responsibility components.
+                    </li>
+                    <li className="section-text">
+                      Built with: React, JavaScript, HTML, CSS
+                    </li>
+                  </ul>
+                  <div className="button-group">
+                    <a
+                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-secondary"
+                    >
+                      Preview
+                    </a>
+                    <a
+                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
