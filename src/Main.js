@@ -236,7 +236,7 @@ export default function Main() {
                       rel="noreferrer"
                       className="btn btn-secondary"
                     >
-                      Preview
+                      Live
                     </a>
                     <a
                       href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
