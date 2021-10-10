@@ -231,7 +231,7 @@ export default function Main() {
                   </ul>
                   <div className="button-group">
                     <a
-                      href="https://companysite-ja.netlify.app/"
+                      href="https://companysite-ja.herokuapp.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-secondary"
