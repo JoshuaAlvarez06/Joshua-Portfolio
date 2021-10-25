@@ -123,7 +123,7 @@ export default function Main() {
                     </li>
                     <li className="section-text">
                       Created the PostgreSQL database from scratch and created
-                      the REST API to be able to call it the frontend portion of
+                      the REST API to be able to call it in the frontend portion of
                       the application.
                     </li>
                     <li className="section-text">
