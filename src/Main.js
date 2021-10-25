@@ -2,20 +2,19 @@ import React from "react";
 import "./Main.css";
 import postgresql from "./images/postgresql.jpg";
 import expressPng from "./images/express.png";
-import thinkfulbnb from "./images/thinkfulbnb.png";
+import welovemovies from "./images/WeLoveMovies.png";
 import pomodorotimer from "./images/pomodorotimer.png";
 import flashcardomatic from "./images/flashcardomatic.png";
 import companySite from "./images/companysite.png";
 import hero from "./images/hero.svg";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 import { useHistory } from "react-router-dom";
-
 
 export default function Main() {
   const history = useHistory();
   const [state, handleSubmit] = useForm("mknkepzn");
   if (state.succeeded) {
-      history.push("/form-submitted")
+    history.push("/form-submitted");
   }
 
   return (
@@ -25,9 +24,24 @@ export default function Main() {
         <h2 className="main-subtitle">
           I create web applications, and I love what I do.
         </h2>
-        <div style={{marginTop: "20px"}}>
-          <a href="https://www.linkedin.com/in/joshuaalvarez06" target="_blank" rel="noreferrer" className="btn btn-primary" style={{marginRight: "10px"}}>LinkedIn</a>
-          <a href="https://www.github.com/joshuaalvarez06" target="_blank" rel="noreferrer" className="btn btn-primary">GitHub</a>
+        <div style={{ marginTop: "20px" }}>
+          <a
+            href="https://www.linkedin.com/in/joshuaalvarez06"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
+            style={{ marginRight: "10px" }}
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://www.github.com/joshuaalvarez06"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
+          >
+            GitHub
+          </a>
         </div>
         <img id="hero" src={hero} alt="hero" />
       </div>
@@ -37,8 +51,8 @@ export default function Main() {
           I have been around technology all my life, and I have grown to have a
           deep love for it. Since beginning to code, it has become my passion.
           I, now, focus on front-end development using mainly Javascript and the
-          React library. I am a very young, quick learner who is always looking to add more
-          to my set of knowledge.
+          React library. I am a very young, quick learner who is always looking
+          to add more to my set of knowledge.
           <br />
           <br />
           When I am not on my computer, I spend my time working out and spending
@@ -99,6 +113,46 @@ export default function Main() {
           <div className="project-section">
             <div className="project">
               <div className="card" style={{ width: "18rem", height: "100%" }}>
+                <img src={welovemovies} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">WeLoveMovies</h5>
+                  <ul>
+                    <li className="section-text">
+                      Developed the backend portion of a web application using
+                      several technologies.
+                    </li>
+                    <li className="section-text">
+                      Created the PostgreSQL database from scratch and created
+                      the REST API to be able to call it the frontend portion of
+                      the application.
+                    </li>
+                    <li className="section-text">
+                      Built with Node.js, Express.js, PostgreSQL, Knex.js
+                    </li>
+                  </ul>
+                  <div className="button-group">
+                    <a
+                      href="https://welovemovies-frontend.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-secondary"
+                    >
+                      Live
+                    </a>
+                    <a
+                      href="https://github.com/JoshuaAlvarez06/WeLoveMovies.git"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Repo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="card" style={{ width: "18rem", height: "100%" }}>
                 <img src={flashcardomatic} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Flashcard-O-Matic</h5>
@@ -120,12 +174,45 @@ export default function Main() {
                       href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
                       target="_blank"
                       rel="noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Repo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project">
+              <div className="card" style={{ width: "18rem", height: "100%" }}>
+                <img src={companySite} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Company Site</h5>
+                  <ul>
+                    <li className="section-text">
+                      Developed a responsive, front-end application which can be
+                      used as a sales site or a company website.
+                    </li>
+                    <li className="section-text">
+                      Implemented styled components, React hooks, and
+                      single-responsibility components. Used various animations
+                      to enhance visuals.
+                    </li>
+                    <li className="section-text">
+                      Built with: React, JavaScript, HTML, CSS
+                    </li>
+                  </ul>
+                  <div className="button-group">
+                    <a
+                      href="https://companysite-ja.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
                       className="btn btn-secondary"
                     >
-                      Preview
+                      Live
                     </a>
                     <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
+                      href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-primary"
@@ -175,81 +262,6 @@ export default function Main() {
                 </div>
               </div>
             </div>
-            <div className="project">
-              <div className="card" style={{ width: "18rem", height: "100%" }}>
-                <img src={thinkfulbnb} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">ThinkfulBnb</h5>
-                  <ul>
-                    <li className="section-text">
-                      Developed a web app using mobile-first development
-                      strategies.
-                    </li>
-                    <li className="section-text">
-                      Implemented media queries and styling to seamlessly allow
-                      for cross-platform use of the application.
-                    </li>
-                    <li className="section-text">Built with HTML, CSS</li>
-                  </ul>
-                  <div className="button-group">
-                    <a
-                      href="https://joshuaalvarez06.github.io/Thinkful---Thinkfulbnb/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-secondary"
-                    >
-                      Live
-                    </a>
-                    <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful---Thinkfulbnb.git"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-primary"
-                    >
-                      Repo
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="card" style={{ width: "18rem", height: "100%" }}>
-                <img src={companySite} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Company Site</h5>
-                  <ul>
-                    <li className="section-text">
-                      Developed a responsive, front-end application which can be used as a sales site or a company website.
-                    </li>
-                    <li className="section-text">
-                      Implemented styled components, React hooks, and
-                      single-responsibility components. Used various animations to enhance visuals.
-                    </li>
-                    <li className="section-text">
-                      Built with: React, JavaScript, HTML, CSS
-                    </li>
-                  </ul>
-                  <div className="button-group">
-                    <a
-                      href="https://companysite-ja.herokuapp.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-secondary"
-                    >
-                      Live
-                    </a>
-                    <a
-                      href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-primary"
-                    >
-                      Repo
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -257,7 +269,9 @@ export default function Main() {
         <h2 className="section-title">Contact</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-section">
-            <label className="section-text" htmlFor="name">Name</label>
+            <label className="section-text" htmlFor="name">
+              Name
+            </label>
             <input
               type="text"
               name="name"
@@ -265,14 +279,12 @@ export default function Main() {
               placeholder="Name"
               required
             />
-            <ValidationError 
-              prefix="Name" 
-              field="name"
-              errors={state.errors}
-            />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
           <div className="form-section">
-            <label className="section-text" htmlFor="email">Email Address</label>
+            <label className="section-text" htmlFor="email">
+              Email Address
+            </label>
             <input
               type="email"
               name="name"
@@ -280,14 +292,16 @@ export default function Main() {
               placeholder="Email"
               required
             />
-            <ValidationError 
-              prefix="Email" 
+            <ValidationError
+              prefix="Email"
               field="email"
               errors={state.errors}
             />
           </div>
           <div className="form-section">
-            <label className="section-text" htmlFor="body">Body</label>
+            <label className="section-text" htmlFor="body">
+              Body
+            </label>
             <textarea
               id="body"
               name="body"
@@ -295,11 +309,7 @@ export default function Main() {
               placeholder="Enter Text Here"
               required
             />
-            <ValidationError 
-              prefix="Body" 
-              field="body"
-              errors={state.errors}
-            />
+            <ValidationError prefix="Body" field="body" errors={state.errors} />
           </div>
           <button type="submit" className="btn btn-primary mt-2">
             Submit
