@@ -176,6 +176,14 @@ form {
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .project-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .project {
     margin-bottom: 20px;
@@ -249,10 +257,6 @@ form {
   }
 
   /* Projects Section */
-  .project-section {
-    display: flex;
-    flex-direction: row;
-  }
 
   .project {
     margin-right: 20px;
@@ -260,5 +264,12 @@ form {
 
   .project:last-child {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .project-section {
+    display: flex;
+    flex-direction: row;
   }
 }
