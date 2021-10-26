@@ -50,9 +50,10 @@ export default function Main() {
         <p className="section-text">
           I have been around technology all my life, and I have grown to have a
           deep love for it. Since beginning to code, it has become my passion.
-          I, now, focus on front-end development using mainly Javascript and the
-          React library. I am a very young, quick learner who is always looking
-          to add more to my set of knowledge.
+          I, now, focus on full-stack development, focusing more on front-end
+          using mainly Javascript and the React library. I am a very young,
+          quick learner who is always looking to add more to my set of
+          knowledge.
           <br />
           <br />
           When I am not on my computer, I spend my time working out and spending
@@ -123,8 +124,8 @@ export default function Main() {
                     </li>
                     <li className="section-text">
                       Created the PostgreSQL database from scratch and created
-                      the REST API to be able to call it in the frontend portion of
-                      the application.
+                      the REST API to be able to call it in the frontend portion
+                      of the application.
                     </li>
                     <li className="section-text">
                       Built with Node.js, Express.js, PostgreSQL, Knex.js
