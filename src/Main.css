@@ -115,6 +115,14 @@ html, body {
   justify-content: space-around;
 }
 
+.project-btn {
+  background: #6187cc;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+}
+
 /* Contact */
 form {
   width: 100%;
@@ -137,9 +145,6 @@ form {
 }
 
 /* Bootstrap Customization */
-.card {
-  border-radius: 0;
-}
 
 .btn-primary {
   background-color: #6187cc;

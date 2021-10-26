@@ -136,7 +136,7 @@ export default function Main() {
                       href="https://welovemovies-frontend.herokuapp.com/"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-secondary"
+                      className="project-btn"
                     >
                       Live
                     </a>
@@ -144,7 +144,7 @@ export default function Main() {
                       href="https://github.com/JoshuaAlvarez06/WeLoveMovies.git"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-primary"
+                      className="project-btn"
                     >
                       Repo
                     </a>
@@ -175,7 +175,7 @@ export default function Main() {
                       href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-primary"
+                      className="project-btn"
                     >
                       Repo
                     </a>
@@ -208,7 +208,7 @@ export default function Main() {
                       href="https://companysite-ja.herokuapp.com/"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-secondary"
+                      className="project-btn"
                     >
                       Live
                     </a>
@@ -216,7 +216,7 @@ export default function Main() {
                       href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-primary"
+                      className="project-btn"
                     >
                       Repo
                     </a>
@@ -247,7 +247,7 @@ export default function Main() {
                       href="https://pomodoro-timer-ja.netlify.app"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-secondary"
+                      className="project-btn"
                     >
                       Live
                     </a>
@@ -255,7 +255,7 @@ export default function Main() {
                       href="https://github.com/JoshuaAlvarez06/Thinkful--Pomodoro-Timer.git"
                       target="_blank"
                       rel="noreferrer"
-                      className="btn btn-primary"
+                      className="project-btn"
                     >
                       Repo
                     </a>
