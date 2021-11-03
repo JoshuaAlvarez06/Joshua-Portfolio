@@ -3,7 +3,7 @@ import "./Main.css";
 import postgresql from "./images/postgresql.jpg";
 import expressPng from "./images/express.png";
 import welovemovies from "./images/WeLoveMovies.png";
-import pomodorotimer from "./images/pomodorotimer.png";
+import lashempress from "./images/lashempress.png";
 import flashcardomatic from "./images/flashcardomatic.png";
 import companySite from "./images/companysite.png";
 import hero from "./images/hero.svg";
@@ -154,6 +154,46 @@ export default function Main() {
             </div>
             <div className="project">
               <div className="card" style={{ width: "18rem", height: "100%" }}>
+                <img src={lashempress} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Lash Empress LA</h5>
+                  <ul>
+                    <li className="section-text">
+                      Created a real responsive website for a client using React
+                      and custom CSS (no Bootstrap or framework). Used
+                      JavaScript to add functionality.
+                    </li>
+                    <li className="section-text">
+                      Used various reusable components and implemented the
+                      Google Maps API.
+                    </li>
+                    <li className="section-text">
+                      Built with React, JavaScript, HTML, CSS
+                    </li>
+                  </ul>
+                  <div className="button-group">
+                    <a
+                      href="https://lashempressla.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-btn"
+                    >
+                      Live
+                    </a>
+                    <a
+                      href="https://github.com/JoshuaAlvarez06/lash-site.git"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-btn"
+                    >
+                      Repo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="card" style={{ width: "18rem", height: "100%" }}>
                 <img src={flashcardomatic} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Flashcard-O-Matic</h5>
@@ -214,45 +254,6 @@ export default function Main() {
                     </a>
                     <a
                       href="https://github.com/JoshuaAlvarez06/Sample-Website.git"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project-btn"
-                    >
-                      Repo
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="card" style={{ width: "18rem", height: "100%" }}>
-                <img src={pomodorotimer} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Pomodoro Timer</h5>
-                  <ul>
-                    <li className="section-text">
-                      Developed a pomodoro timer which allows users to set a
-                      period of study time and break time in order to break work
-                      into intervals using React Router and React hooks.
-                    </li>
-                    <li className="section-text">
-                      Implemented state and various functional components.
-                    </li>
-                    <li className="section-text">
-                      Built with React, JavaScript, HTML, CSS
-                    </li>
-                  </ul>
-                  <div className="button-group">
-                    <a
-                      href="https://pomodoro-timer-ja.netlify.app"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project-btn"
-                    >
-                      Live
-                    </a>
-                    <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful--Pomodoro-Timer.git"
                       target="_blank"
                       rel="noreferrer"
                       className="project-btn"
