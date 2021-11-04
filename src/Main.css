@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -128,7 +129,8 @@ form {
   width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 3px;
 }
 
@@ -158,6 +160,7 @@ input, textarea {
 .btn-primary:hover {
   border: none;
   background-color: #3e598b;
+  color: #fff;
 }
 
 .card-title {
@@ -192,14 +195,13 @@ input, textarea {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .project {
     margin-bottom: 20px;
   }
 
   .skills {
-     margin-bottom: 50px;     
+    margin-bottom: 50px;
   }
 }
 
@@ -245,9 +247,9 @@ input, textarea {
   }
 
   /* Skills Section */
- .skills-container {
-  flex-direction: row;
- }
+  .skills-container {
+    flex-direction: row;
+  }
 
   .skill {
     font-size: 50px;

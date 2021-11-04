@@ -4,7 +4,7 @@ import postgresql from "./images/postgresql.jpg";
 import expressPng from "./images/express.png";
 import welovemovies from "./images/WeLoveMovies.png";
 import lashempress from "./images/lashempress.png";
-import flashcardomatic from "./images/flashcardomatic.png";
+import codersspot from "./images/codersspot.png";
 import companySite from "./images/companysite.png";
 import hero from "./images/hero.svg";
 import { useForm, ValidationError } from "@formspree/react";
@@ -194,25 +194,35 @@ export default function Main() {
             </div>
             <div className="project">
               <div className="card" style={{ width: "18rem", height: "100%" }}>
-                <img src={flashcardomatic} className="card-img-top" alt="..." />
+                <img src={codersspot} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Flashcard-O-Matic</h5>
+                  <h5 className="card-title">Coder's Spot</h5>
                   <ul>
                     <li className="section-text">
-                      Developed a full-stack application in which users can
-                      create, edit, and study their own flashcards.
+                      Developed a full-stack application from scratch in which
+                      users can blog. Created the entire frontend, backend, and
+                      the database with a larger focus on the backend.
                     </li>
                     <li className="section-text">
-                      Implemented read-only props, React hooks, and
-                      single-responsibility components.
+                      Implemented reusable components and a fully functional API
+                      that can perfom CRUD operations.
                     </li>
                     <li className="section-text">
-                      Built with: React, JavaScript, HTML, CSS
+                      Built with: Node.js, Express.js, PostgreSQL, React,
+                      JavaScript, CSS
                     </li>
                   </ul>
                   <div className="button-group">
                     <a
-                      href="https://github.com/JoshuaAlvarez06/Thinkful--Flashcards.git"
+                      href="https://codersspot.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-btn"
+                    >
+                      Live
+                    </a>
+                    <a
+                      href="https://github.com/JoshuaAlvarez06/blog-project.git"
                       target="_blank"
                       rel="noreferrer"
                       className="project-btn"
