@@ -205,7 +205,7 @@ export default function Main() {
                     </li>
                     <li className="section-text">
                       Implemented reusable components and a fully functional API
-                      that can perfom CRUD operations.
+                      that can perform CRUD operations.
                     </li>
                     <li className="section-text">
                       Built with: Node.js, Express.js, PostgreSQL, React,
